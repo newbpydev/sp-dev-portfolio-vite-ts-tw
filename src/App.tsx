@@ -10,12 +10,14 @@ import SkillsSection from "./components/sections/SkillsSection";
 function App() {
   return (
     <>
-      <Header />
-      <HeroSection />
-      <SkillsSection />
-      <ProjectsSection />
-      <ContactSection />
-      <Footer />
+      <main className="font-SpaceGrotesk text-lg text-green">
+        <Header />
+        <HeroSection />
+        <SkillsSection />
+        <ProjectsSection />
+        <ContactSection />
+        <Footer />
+      </main>
 
       <div>
         {` adamkeyes

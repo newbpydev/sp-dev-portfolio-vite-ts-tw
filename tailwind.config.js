@@ -2,7 +2,30 @@
 export default {
   content: ["./index.html", "./src/**/*.{js,ts,jsx,tsx}"],
   theme: {
-    extend: {},
+    fontSize: {
+      base: ["18px", "28px"],
+      md: ["24px", "32px"],
+      lg: [
+        "48px",
+        { letterSpacing: "-1.5px", fontWeight: "700", lineHeight: "56px" },
+      ],
+      xl: [
+        "88px",
+        { letterSpacing: "-2.5px", fontWeight: "700", lineHeight: "88px" },
+      ],
+    },
+    extend: {
+      colors: {
+        "very-black": "#151515",
+        "dark-gray": "#242424",
+        green: "#4EE1A0",
+        "light-gray": "#d9d9d9",
+      },
+      fontFamily: {
+        SpaceGrotesk: ["Space Grotesk", "sans-serif"],
+      },
+      // fontSize: {},
+    },
   },
   plugins: [],
 };
