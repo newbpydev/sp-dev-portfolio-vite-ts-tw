@@ -20,6 +20,7 @@ export default {
         "dark-gray": "#242424",
         green: "#4EE1A0",
         "light-gray": "#d9d9d9",
+        red: "#ff6f5b",
       },
       fontFamily: {
         SpaceGrotesk: ["Space Grotesk", "sans-serif"],

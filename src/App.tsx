@@ -10,7 +10,7 @@ import SkillsSection from "./components/sections/SkillsSection";
 function App() {
   return (
     <>
-      <main className="font-SpaceGrotesk text-lg text-green">
+      <main className="">
         <Header />
         <HeroSection />
         <SkillsSection />
