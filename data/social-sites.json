@@ -1,6 +1,8 @@
-[
-  { "icon": "github.svg", "href": "#", "width": 26, "height": 23 },
-  { "icon": "frontend-mentor.svg", "href": "#", "width": 25, "height": 24 },
-  { "icon": "linkedin.svg", "href": "#", "width": 25, "height": 24 },
-  { "icon": "twitter.svg", "href": "#", "width": 24, "height": 20 }
-]
+{
+  "sites": [
+    { "icon": "github.svg", "href": "#", "width": 26, "height": 23 },
+    { "icon": "frontend-mentor.svg", "href": "#", "width": 25, "height": 24 },
+    { "icon": "linkedin.svg", "href": "#", "width": 25, "height": 24 },
+    { "icon": "twitter.svg", "href": "#", "width": 24, "height": 20 }
+  ]
+}

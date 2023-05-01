@@ -10,7 +10,7 @@ import SkillsSection from "./components/sections/SkillsSection";
 function App() {
   return (
     <>
-      <main className="">
+      <main className="p-7">
         <Header />
         <HeroSection />
         <SkillsSection />
@@ -20,7 +20,7 @@ function App() {
       </main>
 
       <div>
-        {` adamkeyes
+        {` 
 
   Nice to meet you! I'm Adam Keyes.
 
