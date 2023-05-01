@@ -19,7 +19,7 @@ function Navbar() {
 
   // @ Output
   return (
-    <header className="flex flex-col items-center space-y-5 mt-5 md:mt-7 md:mx-7 lg:mt-10 lg:mx-40 md:flex-row md:justify-between md:space-y-0">
+    <header className="flex flex-col items-center space-y-5 mt-5 md:mt-7 md:mx-7 md:flex-row md:justify-between md:space-y-0 lg:mt-10 lg:mx-40 ">
       <span className="text-base font-bold md:text-md lg:text-xm">
         adamkeyes
       </span>

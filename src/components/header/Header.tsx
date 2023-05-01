@@ -4,7 +4,7 @@ import Navbar from "../navbar/Navbar";
 function Header() {
   // @ Output
   return (
-    <section>
+    <section className="mb-12 md:mb-[66px] lg:mb-16">
       <Navbar />
     </section>
   );
