@@ -5,6 +5,14 @@ export default {
     fontSize: {
       base: ["18px", "28px"],
       md: ["24px", "32px"],
+      xm: [
+        "32px",
+        {
+          letterSpacing: "-.444px",
+          fontWeight: "700",
+          lineHeight: "32px",
+        },
+      ],
       lg: [
         "48px",
         { letterSpacing: "-1.5px", fontWeight: "700", lineHeight: "56px" },

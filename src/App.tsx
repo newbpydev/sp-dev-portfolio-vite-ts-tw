@@ -10,7 +10,8 @@ import SkillsSection from "./components/sections/SkillsSection";
 function App() {
   return (
     <>
-      <main className="p-7">
+      <main>
+        {/* <main className="p-4 md:p-7"> */}
         <Header />
         <HeroSection />
         <SkillsSection />

@@ -19,10 +19,12 @@ function Navbar() {
 
   // @ Output
   return (
-    <header className="flex flex-col items-center">
-      <span className="text-base font-bold mb-5">adamkeyes</span>
+    <header className="flex flex-col items-center space-y-5 mt-5 md:mt-7 md:mx-7 lg:mt-10 lg:mx-40 md:flex-row md:justify-between md:space-y-0">
+      <span className="text-base font-bold md:text-md lg:text-xm">
+        adamkeyes
+      </span>
 
-      <div className="flex justify-between w-36 ">
+      <div className="flex justify-between w-36 md:w-48 ">
         {renderSocialLinks && renderSocialLinks}
       </div>
     </header>
