@@ -1,10 +1,10 @@
 // * TYPES
-interface Props {}
+// interface Props {}
 
 // * COMPONENT: ContactSection
-function ContactSection({}: Props) {
+function ContactSection() {
   // @ Output
-  return <section>ContactSection</section>;
+  return <section id="contact">ContactSection</section>;
 }
 
 export default ContactSection;

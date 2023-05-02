@@ -13,6 +13,14 @@ export default {
           lineHeight: "32px",
         },
       ],
+      h1: [
+        "40px",
+        {
+          letterSpacing: "-1.13636px",
+          fontWeight: "700",
+          lineHeight: "40px",
+        },
+      ],
       lg: [
         "48px",
         { letterSpacing: "-1.5px", fontWeight: "700", lineHeight: "56px" },
