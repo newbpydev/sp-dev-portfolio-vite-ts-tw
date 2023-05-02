@@ -4,6 +4,10 @@
 @tailwind components;
 @tailwind utilities;
 
+.section-container {
+  @apply px-4 mx-auto;
+}
+
 @layer base {
   body {
     @apply font-SpaceGrotesk text-white text-base bg-very-black;
