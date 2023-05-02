@@ -15,7 +15,7 @@ function HeroSection() {
           </span>
           .
         </h1>
-        <p className="font-medium text-[16px] leading-[26px] mb-6">
+        <p className="font-medium text-light-gray text-[16px] leading-[26px] mb-6">
           Based in the UK, I'm a front-end developer passionate about building
           accessible web apps that users love.
         </p>

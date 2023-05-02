@@ -22,27 +22,6 @@ function App() {
 
       <div>
         {` 
-
-  
-
-  HTML
-  4 Years Experience
-
-  CSS
-  4 Years Experience
-
-  JavaScript
-  4 Years Experience
-
-  Accessibility
-  4 Years Experience
-
-  React
-  3 Years Experience
-
-  Sass
-  3 Years Experience
-
   Projects
 
   Contact me
