@@ -19,7 +19,7 @@ function HeroSection() {
           Based in the UK, I'm a front-end developer passionate about building
           accessible web apps that users love.
         </p>
-        <Button type="link" href="#contact" className="">
+        <Button type="link" href="#contact">
           Contact me
         </Button>
       </div>
