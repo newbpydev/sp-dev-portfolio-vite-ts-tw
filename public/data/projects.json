@@ -6,7 +6,9 @@
       { "large": "thumbnail-project-1-large.webp" }
     ],
     "tags": ["html", "css"],
-    "slug": "design-portfolio"
+    "slug": "design-portfolio",
+    "livePage": "#",
+    "codePage": "#"
   },
   {
     "title": "E-Learning Landing Page",
@@ -15,7 +17,9 @@
       { "large": "thumbnail-project-2-large.webp" }
     ],
     "tags": ["html", "css"],
-    "slug": "e-learning-landing-page"
+    "slug": "e-learning-landing-page",
+    "livePage": "#",
+    "codePage": "#"
   },
   {
     "title": "Todo Web App",
@@ -24,7 +28,9 @@
       { "large": "thumbnail-project-3-large.webp" }
     ],
     "tags": ["html", "css", "javascript"],
-    "slug": "todo-web-app"
+    "slug": "todo-web-app",
+    "livePage": "#",
+    "codePage": "#"
   },
   {
     "title": "Entertainment Web App",
@@ -33,7 +39,9 @@
       { "large": "thumbnail-project-4-large.webp" }
     ],
     "tags": ["html", "css", "javascript"],
-    "slug": "entertainment-web-app"
+    "slug": "entertainment-web-app",
+    "livePage": "#",
+    "codePage": "#"
   },
   {
     "title": "Memory Game",
@@ -42,7 +50,9 @@
       { "large": "thumbnail-project-5-large.webp" }
     ],
     "tags": ["html", "css", "javascript"],
-    "slug": "memory-game"
+    "slug": "memory-game",
+    "livePage": "#",
+    "codePage": "#"
   },
   {
     "title": "Art Gallery Showcase",
@@ -51,6 +61,8 @@
       { "large": "thumbnail-project-6-large.webp" }
     ],
     "tags": ["html", "css", "javascript"],
-    "slug": "art-gallery-showcase"
+    "slug": "art-gallery-showcase",
+    "livePage": "#",
+    "codePage": "#"
   }
 ]
