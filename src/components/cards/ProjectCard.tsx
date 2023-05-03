@@ -8,8 +8,6 @@ interface Props {
 
 // * COMPONENT: ProjectCard
 function ProjectCard({ project }: Props) {
-  console.log(project);
-
   const tags = project.tags.map((tag) => (
     <span className="uppercase text-light-gray" key={tag}>
       {tag}

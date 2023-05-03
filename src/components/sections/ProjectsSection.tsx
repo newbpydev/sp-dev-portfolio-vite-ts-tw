@@ -23,15 +23,13 @@ function ProjectsSection() {
       .then((data) => setProjects(data));
   }, []);
 
-  console.log(projects);
-
   const renderProjects = projects?.map((project) => (
     <ProjectCard key={project.slug} project={project} />
   ));
 
   // @ Output
   return (
-    <section className="section-container">
+    <section className="section-container mb-20">
       <div className="flex justify-between">
         <h2 className="text-h1">Projects</h2>
         <Button type="link" href="#contact">
