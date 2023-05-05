@@ -8,6 +8,34 @@
   @apply px-4 mx-auto;
 }
 
+.bg-image::before {
+  content: '';
+  position: absolute;
+  top: 124px;
+  left: -342px;
+  width: 530px;
+  height: 129px;
+  background-image: url('/images/pattern-rings.svg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  /* background-position: -350px 120px; */
+  z-index: -1
+}
+.bg-image::after {
+  content: '';
+  position: absolute;
+  right: -64.5px;
+  bottom: 275;
+  width: 129px;
+  height: 129px;
+  background-image: url('/images/pattern-circle.svg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  z-index: -1;
+}
+
 @layer base {
   body {
     @apply font-SpaceGrotesk text-white text-base bg-very-black;

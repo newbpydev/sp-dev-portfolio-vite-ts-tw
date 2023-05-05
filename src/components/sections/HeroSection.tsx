@@ -1,12 +1,17 @@
-// * TYPES
-
+import patternRings from "../../assets/images/pattern-rings.svg";
 import Button from "../ui/buttons/Button";
 
 // * COMPONENT: HeroSection
 function HeroSection() {
   // @ Output
   return (
-    <section className="flex flex-col justify-center items-center mb-24 -mt-32 px-4 md:flex-row">
+    <section className="flex flex-col justify-center items-center mb-24 -mt-32 px-4 md:flex-row bg-image relative">
+      {/* <div
+        className="bg-cover bg-center bg-no-repeat w-full"
+        style={{ backgroundImage: `url(${patternRings})` }}
+      >
+        ds
+      </div> */}
       <div className="order-2 text-center">
         <h1 className="text-h1 mb-6">
           Nice to meet you! I'm{" "}
