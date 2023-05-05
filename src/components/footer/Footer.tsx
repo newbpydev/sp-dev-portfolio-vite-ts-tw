@@ -1,13 +1,12 @@
 import Navbar from "../navbar/Navbar";
 
 // * TYPES
-interface Props {}
 
 // * COMPONENT: Footer
-function Footer({}: Props) {
+function Footer() {
   // @ Output
   return (
-    <section>
+    <section className="bg-dark-gray pb-14">
       <Navbar />
     </section>
   );

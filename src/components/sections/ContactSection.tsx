@@ -9,7 +9,7 @@ function ContactSection() {
   return (
     <section
       id="contact"
-      className="section-container bg-dark-gray text-center space-y-12 mb-10  pb-20 pt-14"
+      className="section-container bg-dark-gray text-center space-y-12 pb-10 pt-14"
     >
       <div className="border-b-[1px] pb-24">
         <div className="flex flex-col space-y-5  mb-[50px]">
