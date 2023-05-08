@@ -71,7 +71,7 @@ function ContactForm() {
     <form className="flex flex-col space-y-8 mb-22" onSubmit={submitHandler}>
       {/* <input type="text" placeholder="Name" /> */}
 
-      <div className="flex flex-col relative">
+      <div className="relative flex flex-col">
         <input
           placeholder="Name"
           type="text"
@@ -91,7 +91,7 @@ function ContactForm() {
         )}
       </div>
 
-      <div className="flex flex-col relative">
+      <div className="relative flex flex-col">
         <input
           placeholder="Email"
           type="email"
@@ -111,12 +111,12 @@ function ContactForm() {
         )}
       </div>
 
-      <div className="flex flex-col relative">
+      <div className="relative flex flex-col">
         <textarea
           name="message"
           id="message"
           cols={10}
-          rows={3}
+          rows={4}
           onChange={(e) => setMessage(e.target.value)}
           value={message}
           // ref={msg}

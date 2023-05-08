@@ -12,7 +12,7 @@
   content: '';
   position: absolute;
   top: 124px;
-  left: -342px;
+  left: -340px;
   width: 530px;
   height: 129px;
   background-image: url('/images/pattern-rings.svg');
@@ -48,6 +48,20 @@
   background-repeat: no-repeat;
   background-position: center;
   z-index: -1
+}
+
+.contact-bg-image::before {
+  content: '';
+  position: absolute;
+  bottom: 130px;
+  left: -340px;
+  width: 530px;
+  height: 129px;
+  background-image: url('/images/pattern-rings.svg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  z-index: 0;
 }
 
 @layer base {

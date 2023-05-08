@@ -9,7 +9,7 @@ function ContactSection() {
   return (
     <section
       id="contact"
-      className="section-container bg-dark-gray text-center space-y-12 pb-10 pt-14"
+      className="relative pb-10 space-y-12 text-center section-container bg-dark-gray pt-14 contact-bg-image"
     >
       <div className="border-b-[1px] pb-24">
         <div className="flex flex-col space-y-5  mb-[50px]">
