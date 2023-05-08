@@ -5,15 +5,15 @@ import Button from "../ui/buttons/Button";
 function HeroSection() {
   // @ Output
   return (
-    <section className="flex flex-col justify-center items-center mb-24 -mt-32 px-4 md:flex-row bg-image relative">
+    <section className="relative flex flex-col items-center justify-center px-4 mb-24 -mt-32 md:flex-row hero-bg-image">
       {/* <div
-        className="bg-cover bg-center bg-no-repeat w-full"
+        className="w-full bg-center bg-no-repeat bg-cover"
         style={{ backgroundImage: `url(${patternRings})` }}
       >
         ds
       </div> */}
       <div className="order-2 text-center">
-        <h1 className="text-h1 mb-6">
+        <h1 className="mb-6 text-h1">
           Nice to meet you! I'm{" "}
           <span className="underline underline-offset-8 decoration-green">
             Adam Keyes
@@ -29,7 +29,7 @@ function HeroSection() {
         </Button>
       </div>
 
-      <picture className="order-1 w-44 mb-10">
+      <picture className="order-1 mb-10 w-44">
         <source
           media="(min-width: 89em)"
           srcSet="/images/image-profile-desktop.webp"

@@ -8,7 +8,7 @@
   @apply px-4 mx-auto;
 }
 
-.bg-image::before {
+.hero-bg-image::before {
   content: '';
   position: absolute;
   top: 124px;
@@ -22,7 +22,7 @@
   /* background-position: -350px 120px; */
   z-index: -1
 }
-.bg-image::after {
+.hero-bg-image::after {
   content: '';
   position: absolute;
   right: -64.5px;
@@ -36,8 +36,22 @@
   z-index: -1;
 }
 
+.skills-bg-image::before {
+  content: '';
+  position: absolute;
+  bottom: -64.5px;
+  right: -340px;
+  width: 530px;
+  height: 129px;
+  background-image: url('/images/pattern-rings.svg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  z-index: -1
+}
+
 @layer base {
   body {
-    @apply font-SpaceGrotesk text-white text-base bg-very-black;
+    @apply text-base text-white font-SpaceGrotesk bg-very-black;
   }
 }
