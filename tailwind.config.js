@@ -21,6 +21,14 @@ export default {
           lineHeight: "40px",
         },
       ],
+      h1md: [
+        "72px",
+        {
+          letterSpacing: "-2.04545px",
+          fontWeight: "700",
+          lineHeight: "80px",
+        },
+      ],
       lg: [
         "48px",
         { letterSpacing: "-1.5px", fontWeight: "700", lineHeight: "56px" },
