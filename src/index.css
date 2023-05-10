@@ -67,7 +67,7 @@
 @media (min-width: 768px) {
   .hero-bg-image::before {
  
-  top: 0px;
+  top: -60px;
   left: -265px;
   width: 530px;
   height: 129px;
@@ -76,7 +76,7 @@
 .hero-bg-image::after {
  
   right: -64.5px;
-  bottom: -3px;
+  bottom: -4px;
   width: 129px;
   height: 129px;
  
