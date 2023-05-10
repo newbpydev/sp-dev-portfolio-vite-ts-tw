@@ -5,7 +5,7 @@ import Button from "../ui/buttons/Button";
 function HeroSection() {
   // @ Output
   return (
-    <section className="relative flex flex-col items-center justify-center px-4 mb-24 -mt-32 md:flex-row md:mt-0 md:justify-start md:px-8 hero-bg-image">
+    <section className="relative flex flex-col items-center justify-center px-4 mb-24 -mt-32 md:flex-row md:mt-0 md:mb-[60px] md:justify-start md:px-8 hero-bg-image">
       {/* <div
         className="w-full bg-center bg-no-repeat bg-cover"
         style={{ backgroundImage: `url(${patternRings})` }}

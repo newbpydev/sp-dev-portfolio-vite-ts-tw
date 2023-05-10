@@ -64,6 +64,25 @@
   z-index: 0;
 }
 
+@media (min-width: 768px) {
+  .hero-bg-image::before {
+ 
+  top: 0px;
+  left: -265px;
+  width: 530px;
+  height: 129px;
+  
+}
+.hero-bg-image::after {
+ 
+  right: -64.5px;
+  bottom: -3px;
+  width: 129px;
+  height: 129px;
+ 
+}
+}
+
 @layer base {
   body {
     @apply text-base text-white font-SpaceGrotesk bg-very-black;
