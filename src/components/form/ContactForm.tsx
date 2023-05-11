@@ -69,7 +69,7 @@ function ContactForm() {
   // @ Output
   return (
     <form
-      className="flex flex-col space-y-8 mb-22 md:w-[445px]"
+      className="flex flex-col space-y-8 md:w-[445px]"
       onSubmit={submitHandler}
     >
       {/* <input type="text" placeholder="Name" /> */}
