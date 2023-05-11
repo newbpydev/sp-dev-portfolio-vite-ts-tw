@@ -4,7 +4,7 @@ import Navbar from "../navbar/Navbar";
 function Header() {
   // @ Output
   return (
-    <header className="mb-12 mt-5 md:mb-[90px] lg:mb-16">
+    <header className="mb-12 mt-5 md:mb-[90px] lg:mb-16 lg:mt-10 lg:mx-[165px]">
       {/* <header className="mb-12 mt-5 md:mb-[66px] lg:mb-16"> */}
       <Navbar />
     </header>

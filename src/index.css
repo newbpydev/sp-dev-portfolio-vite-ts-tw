@@ -80,13 +80,30 @@
   bottom: -64.5px;
   right: -330px;
 }
-
 .contact-bg-image::before {
-
   bottom: 60px;
   left: -365px;
-
-
+}
+}
+@media (min-width: 1024px) {
+  .section-container {
+  @apply px-[165px] mx-auto;
+}
+  .hero-bg-image::before {
+  top: -60px;
+  left: -265px;
+}
+.hero-bg-image::after {
+  right: -64.5px;
+  bottom: -4px;
+}
+.skills-bg-image::before {
+  bottom: -64.5px;
+  right: -330px;
+}
+.contact-bg-image::before {
+  bottom: 60px;
+  left: -365px;
 }
 }
 
