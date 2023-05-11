@@ -76,10 +76,17 @@
   right: -64.5px;
   bottom: -4px;
 }
-
 .skills-bg-image::before {
   bottom: -64.5px;
   right: -330px;
+}
+
+.contact-bg-image::before {
+
+  bottom: 130px;
+  left: -365px;
+
+
 }
 }
 

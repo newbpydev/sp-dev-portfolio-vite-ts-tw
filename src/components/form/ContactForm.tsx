@@ -68,7 +68,10 @@ function ContactForm() {
 
   // @ Output
   return (
-    <form className="flex flex-col space-y-8 mb-22" onSubmit={submitHandler}>
+    <form
+      className="flex flex-col space-y-8 mb-22 md:w-[445px]"
+      onSubmit={submitHandler}
+    >
       {/* <input type="text" placeholder="Name" /> */}
 
       <div className="relative flex flex-col">
@@ -122,9 +125,11 @@ function ContactForm() {
           // ref={msg}
           placeholder="Message"
           className={`placeholder:uppercase pb-4 px-6 text-[16px] text-white leading-[26px] tracking-[-0.22px] border-b-[1px] bg-transparent ${
-            invalid && invalid.field === "message"
-              ? " border-b-rose-500"
-              : " border-b-green"
+            invalid
+              ? invalid.field === "message"
+                ? " border-b-rose-500"
+                : " border-b-green"
+              : ""
           }`}
         ></textarea>
         {invalid && invalid.field === "message" && (
