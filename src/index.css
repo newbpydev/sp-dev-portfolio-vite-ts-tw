@@ -66,20 +66,17 @@
 
 @media (min-width: 768px) {
   .hero-bg-image::before {
- 
   top: -60px;
   left: -265px;
-  width: 530px;
-  height: 129px;
-  
 }
 .hero-bg-image::after {
- 
   right: -64.5px;
   bottom: -4px;
-  width: 129px;
-  height: 129px;
- 
+}
+
+.skills-bg-image::before {
+  bottom: -64.5px;
+  right: -330px;
 }
 }
 
