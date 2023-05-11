@@ -65,6 +65,9 @@
 }
 
 @media (min-width: 768px) {
+  .section-container {
+  @apply px-[30px] mx-auto;
+}
   .hero-bg-image::before {
   top: -60px;
   left: -265px;

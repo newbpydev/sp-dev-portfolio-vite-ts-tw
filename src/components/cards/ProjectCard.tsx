@@ -27,7 +27,7 @@ function ProjectCard({ project }: Props) {
         </picture>
       </div>
 
-      <h3 className="text-md uppercase font-bold mb-2">{project.title}</h3>
+      <h3 className="text-md uppercase font-bold mb-[7px]">{project.title}</h3>
 
       <div className="flex space-x-[18px] mb-5">{tags && tags}</div>
 
