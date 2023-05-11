@@ -30,16 +30,14 @@ function ProjectsSection() {
   // @ Output
   return (
     <section className="section-container mb-20">
-      <div className="flex justify-between">
-        <h2 className="text-h1">Projects</h2>
+      <div className="flex justify-between items-center mb-10 md:mb-[60px]">
+        <h2 className="text-h1 md:text-h1md md:leading-[72px]">Projects</h2>
         <Button type="link" href="#contact">
           Contact Me
         </Button>
       </div>
 
-      <div className="grid space-y-10 mt-10">
-        {renderProjects && renderProjects}
-      </div>
+      <div className="grid space-y-10">{renderProjects && renderProjects}</div>
     </section>
   );
 }
