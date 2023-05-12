@@ -39,6 +39,9 @@ export default {
       ],
     },
     extend: {
+      screens: {
+        "2xl": "1440px",
+      },
       colors: {
         "very-black": "#151515",
         "dark-gray": "#242424",
