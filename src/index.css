@@ -64,6 +64,7 @@
   z-index: 0;
 }
 
+/* * Media 768px */
 @media (min-width: 768px) {
   .section-container {
   @apply px-[30px] mx-auto;
@@ -85,6 +86,8 @@
   left: -365px;
 }
 }
+
+/* * Media 1024px */
 @media (min-width: 1024px) {
   .section-container {
   @apply px-[165px] mx-auto;

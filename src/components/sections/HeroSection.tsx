@@ -1,18 +1,19 @@
-import patternRings from "../../assets/images/pattern-rings.svg";
 import Button from "../ui/buttons/Button";
 
 // * COMPONENT: HeroSection
 function HeroSection() {
   // @ Output
   return (
-    <section className="relative flex flex-col items-center justify-center px-4 mb-24 -mt-32 md:flex-row md:mt-0 md:mb-[60px] md:justify-start md:px-8 section-container hero-bg-image">
+    <section className="relative flex flex-col items-center justify-center mb-24 -mt-32 md:flex-row md:mt-0 md:mb-[60px] md:justify-start section-container hero-bg-image">
       {/* <div
         className="w-full bg-center bg-no-repeat bg-cover"
         style={{ backgroundImage: `url(${patternRings})` }}
       >
         ds
       </div> */}
-      <div className="order-2 text-center md:order-1 md:text-left md:w-[445px]">
+      <div className="order-2 text-center md:order-1 md:text-left md:w-[63.2%] ">
+        {/* <div className="order-2 text-center md:order-1 md:text-left md:w-[63.2%] xl:w-[706px]"> */}
+        {/* <div className="order-2 text-center md:order-1 md:text-left md:w-[445px] xl:w-[706px]"> */}
         <h1 className="mb-6 text-h1 md:text-h1md md:mb-[60px]">
           Nice to meet you! I'm{" "}
           <span className="underline underline-offset-8 decoration-green">
@@ -31,8 +32,9 @@ function HeroSection() {
         </Button>
       </div>
 
-      <picture className="order-1 mb-10 w-[51.3%] md:order-2 md:absolute md:right-0 md:top-[-150px] md:w-80 md:-z-10">
-        {/* <picture className="order-1 mb-10 w-44 md:order-2 md:absolute md:right-0 md:top-[-150px] md:w-80 md:-z-10"> */}
+      <picture className="order-1 mb-10 w-[51.3%] md:order-2 md:absolute md:right-0 md:top-[-150px] md:w-80 md:mb-0 md:-z-10  lg:right-[165px] lg:top-[-200px] xl:top-[-150px]">
+        {/* <picture className="order-1 mb-10 w-[51.3%] md:order-2 md:absolute md:right-0 md:top-[-150px] md:w-80 md:-z-10  lg:w-[445px] lg:h-[720px] lg:right-[165px] lg:top-[-200px]"> */}
+
         <source
           media="(min-width: 89em)"
           srcSet="/images/image-profile-desktop.webp"
