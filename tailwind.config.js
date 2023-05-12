@@ -35,7 +35,7 @@ export default {
       ],
       xl: [
         "88px",
-        { letterSpacing: "-2.5px", fontWeight: "700", lineHeight: "88px" },
+        { letterSpacing: "-2.8px", fontWeight: "700", lineHeight: "88px" },
       ],
     },
     extend: {

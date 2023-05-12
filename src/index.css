@@ -125,7 +125,7 @@
 }
 .skills-bg-image::before {
   bottom: -64.5px;
-  right: -330px;
+  right: -220px;
 }
 .contact-bg-image::before {
   bottom: 60px;
@@ -139,9 +139,9 @@
   left: -100px;
 }
 .hero-bg-image::after {
-  right: 550px;
-  bottom: -50px;
+  top: 320px;
 }
+
 .skills-bg-image::before {
   bottom: -64.5px;
   right: -330px;
