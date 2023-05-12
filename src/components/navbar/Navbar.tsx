@@ -24,7 +24,7 @@ function Navbar() {
         adamkeyes
       </span>
 
-      <div className="flex justify-between w-36 md:w-48 ">
+      <div className="flex items-center justify-between w-36 md:w-48 ">
         {renderSocialLinks && renderSocialLinks}
       </div>
     </div>
