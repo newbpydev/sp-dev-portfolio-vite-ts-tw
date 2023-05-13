@@ -1,4 +1,4 @@
-import { ChangeEventHandler, useEffect, useRef, useState } from "react";
+import { ChangeEventHandler, useState } from "react";
 import Button from "../ui/buttons/Button";
 import InputError from "../error/InputError";
 // * TYPES
