@@ -133,13 +133,13 @@
 }
 }
 /* * Media 1447px */
-@media (min-width: 1447px) {
+@media (min-width: 1438px) {
   .hero-bg-image::before {
   top: -65px;
   left: -100px;
 }
 .hero-bg-image::after {
-  top: 320px;
+  bottom: -40px;
 }
 
 .skills-bg-image::before {
