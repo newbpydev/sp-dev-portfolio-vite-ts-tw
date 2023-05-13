@@ -11,9 +11,9 @@ function ContactSection() {
       id="contact"
       className="relative pb-10 md:pb-[30px] space-y-12 text-center section-container bg-dark-gray pt-[60px] contact-bg-image"
     >
-      <div className="border-b-[1px] pb-24 flex flex-col md:items-center md:pb-[92px] ">
-        <div className="flex flex-col space-y-5  mb-[50px] md:mb-[48px] md:w-[445px]">
-          <h2 className="text-[40px] font-bold leading-10 tracking-[-1.14px] md:text-h1md md:leading-[72px]">
+      <div className="border-b-[1px] pb-24 flex flex-col md:items-center md:pb-[92px] lg:flex-row lg:justify-between lg:items-start ">
+        <div className="flex flex-col space-y-5  mb-[50px] md:mb-[48px] md:w-[445px] lg:text-left lg:space-y-9">
+          <h2 className="text-[40px] font-bold leading-10 tracking-[-1.14px] md:text-h1md md:leading-[72px] lg:text-xl ">
             Contact
           </h2>
 
