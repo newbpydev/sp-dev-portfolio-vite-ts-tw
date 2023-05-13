@@ -29,15 +29,17 @@ function ProjectsSection() {
 
   // @ Output
   return (
-    <section className="section-container mb-20 md:mb-[100px]">
-      <div className="flex justify-between items-center mb-10 md:mb-[60px]">
-        <h2 className="text-h1 md:text-h1md md:leading-[72px]">Projects</h2>
+    <section className="section-container mb-20 md:mb-[145px] lg:mb-[140px]">
+      <div className="flex justify-between items-center mb-10 md:mb-[60px] lg:mb-[80px]">
+        <h2 className="text-h1 md:text-h1md md:leading-[72px] lg:text-xl">
+          Projects
+        </h2>
         <Button type="link" href="#contact">
           Contact Me
         </Button>
       </div>
 
-      <div className="grid gap-y-10 md:grid-cols-2 md:gap-y-[60px] md:gap-x-6">
+      <div className="grid gap-y-10 md:grid-cols-2 md:gap-y-[85px] md:gap-x-6 lg:gap-x-[30px] lg:gap-y-[69px]">
         {renderProjects && renderProjects}
       </div>
     </section>
