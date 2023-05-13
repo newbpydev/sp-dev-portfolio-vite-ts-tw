@@ -119,11 +119,11 @@
 }
 .hero-bg-image::after {
   right: 550px;
-  bottom: 40px;
+  bottom: 35px;
 }
 .skills-bg-image::before {
   bottom: -64.5px;
-  right: -220px;
+  right: -215px;
 }
 
 }
@@ -131,12 +131,7 @@
 @media (min-width: 1438px) {
 
 .hero-bg-image::after {
-  bottom: -40px;
-}
-
-.skills-bg-image::before {
-  bottom: -64.5px;
-  right: -330px;
+  bottom: -54px;
 }
 
 }
