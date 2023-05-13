@@ -8,7 +8,7 @@ import SkillsSection from "./components/sections/SkillsSection";
 
 function App() {
   return (
-    <>
+    <main>
       <Header />
 
       <main className="overflow-x-clip">
@@ -19,7 +19,7 @@ function App() {
       </main>
 
       <Footer />
-    </>
+    </main>
   );
 }
 
