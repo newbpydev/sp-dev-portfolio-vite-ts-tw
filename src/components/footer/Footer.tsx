@@ -6,7 +6,7 @@ import Navbar from "../navbar/Navbar";
 function Footer() {
   // @ Output
   return (
-    <section className="bg-dark-gray pb-14 md:pb-10 section-container">
+    <section className="bg-dark-gray pb-14 md:pb-10 lg:pb-[92px] section-container">
       <Navbar />
     </section>
   );
