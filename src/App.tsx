@@ -11,12 +11,12 @@ function App() {
     <main>
       <Header />
 
-      <main className="overflow-x-clip">
+      <section className="overflow-x-clip">
         <HeroSection />
         <SkillsSection />
         <ProjectsSection />
         <ContactSection />
-      </main>
+      </section>
 
       <Footer />
     </main>
