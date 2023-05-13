@@ -20,7 +20,7 @@ function Navbar() {
   // @ Output
   return (
     <div className="flex flex-col items-center space-y-5 md:flex-row md:justify-between md:space-y-0 ">
-      <span className="text-base font-bold md:text-md lg:text-xm">
+      <span className="text-base font-bold md:text-xm lg:text-xm">
         adamkeyes
       </span>
 
