@@ -8,15 +8,15 @@ import SkillsSection from "./components/sections/SkillsSection";
 
 function App() {
   return (
-    <main>
+    <main className="overflow-x-clip">
       <Header />
 
-      <section className="overflow-x-clip">
+      <div>
         <HeroSection />
         <SkillsSection />
         <ProjectsSection />
         <ContactSection />
-      </section>
+      </div>
 
       <Footer />
     </main>
